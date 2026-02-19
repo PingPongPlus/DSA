@@ -1,3 +1,6 @@
+#include <iostream>
+#include <bits/stdc++.h>
+
 class Solution {
 public:
     int findLucky(vector<int>& arr) {

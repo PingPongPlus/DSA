@@ -37,7 +37,6 @@ public:
         node->left = buildBalanced(l, mid - 1);
         node->right = buildBalanced(mid + 1, r);
         return node;
-
     }
   
     void helper(TreeNode* root) {
