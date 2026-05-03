@@ -8,7 +8,6 @@ public:
         sort(nums.begin()+1, nums.end());
         for(size_t i{}; i < 3; ++i){
             sum += nums[i];
-
         }
 
 

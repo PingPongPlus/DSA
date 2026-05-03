@@ -3,9 +3,11 @@
 #include <algorithm>
 using namespace std;
 
+
 class Solution {
 public:
     int minimumCardPickup(vector<int>& cards) {
-        HashMap<int, vector<int>> cardMap;
+        unordered_map<int,int> Map;
+        
     }
 };
